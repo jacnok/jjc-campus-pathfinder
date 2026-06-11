@@ -1,0 +1,32 @@
+{
+  "pulledAt": "2026-06-10T19:14:22.000Z",
+  "people": [
+    {
+      "id": "pamela-dunn",
+      "fullName": "Pamela Dunn",
+      "firstName": "Pamela",
+      "lastName": "Dunn",
+      "title": "Professor",
+      "department": "Technical Faculty Office",
+      "rawLocation": "MC-T 1063 TECH Faculty Office"
+    },
+    {
+      "id": "pamela-smith",
+      "fullName": "Pamela Smith",
+      "firstName": "Pamela",
+      "lastName": "Smith",
+      "title": "Advisor",
+      "department": "Sample Department",
+      "rawLocation": "MC-A 1234"
+    },
+    {
+      "id": "daniel-dunn",
+      "fullName": "Daniel Dunn",
+      "firstName": "Daniel",
+      "lastName": "Dunn",
+      "title": "Staff",
+      "department": "Sample Department",
+      "rawLocation": "MC-J 2010"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "query": "Z1063",
+    "issueType": "building-alias-unmapped",
+    "rawLocation": "Z1063",
+    "createdAt": "2026-06-11T00:46:52.924Z"
+  },
+  {
+    "query": "pam dun",
+    "issueType": "ambiguous-name",
+    "createdAt": "2026-06-11T00:46:52.927Z"
+  },
+  {
+    "query": "pam",
+    "issueType": "ambiguous-name",
+    "createdAt": "2026-06-11T00:46:52.928Z"
+  },
+  {
+    "query": "1063",
+    "issueType": "ambiguous-room",
+    "createdAt": "2026-06-11T00:46:52.932Z"
+  }
+]

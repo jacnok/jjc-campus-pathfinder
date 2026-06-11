@@ -1,0 +1,4 @@
+buildingCode,aliases,displayOfficePrefix,campusDisplayName,buildingDisplayName,recommendedParkingLabel,parkingType,parkingRefs,parkingStreetRefs,buildingLat,buildingLng,parkingLat,parkingLng,roomRanges,hasElevator,hasStairs,locationVerifiedAt,verticalAccessNotes,notes
+T,"MC-T|T|TECH|Technical Center|T-Building",MC-T,Main Campus,T-Building,Lot X,lot,X,,41.500000,-88.180000,41.500500,-88.180500,0000-3999,true,true,2026-06-10,Elevator and stairs are available.,Directory may use MC-T or TECH for this building.
+A,"MC-A|A|A-Building",MC-A,Main Campus,A-Building,Lots 10 and 11,lot,10|11,,41.501000,-88.181000,41.501500,-88.181500,0000-3999,true,true,2026-06-10,Elevator and stairs are available.,Sample building.
+J,"MC-J|J|J-Building",MC-J,Main Campus,J-Building,Lot 5 near Houbolt Road,mixed,5,Houbolt Road,41.502000,-88.182000,41.502500,-88.182500,0000-3999,true,true,2026-06-10,Elevator and stairs are available.,Sample mixed parking.

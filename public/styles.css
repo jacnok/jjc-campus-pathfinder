@@ -1,0 +1,159 @@
+:root {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #172033;
+  background: #f3f5f8;
+}
+
+body {
+  margin: 0;
+}
+
+.shell {
+  width: min(1100px, calc(100% - 2rem));
+  margin: 2rem auto;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.75rem;
+  color: #627087;
+  font-weight: 700;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(2rem, 5vw, 4rem);
+}
+
+.intro {
+  max-width: 65ch;
+  color: #4d5a70;
+}
+
+.search-card,
+.result-card,
+.map-card {
+  background: #fff;
+  border: 1px solid #dce2ea;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-top: 1rem;
+  box-shadow: 0 8px 24px rgba(14, 30, 55, 0.08);
+}
+
+label {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.search-row {
+  display: flex;
+  gap: 0.75rem;
+}
+
+input {
+  flex: 1;
+  border: 1px solid #b7c1d0;
+  border-radius: 0.75rem;
+  padding: 0.85rem 1rem;
+  font: inherit;
+}
+
+button,
+.link-button {
+  border: 0;
+  border-radius: 0.75rem;
+  padding: 0.85rem 1rem;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+  background: #174ea6;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+}
+
+button.secondary {
+  background: #eef3fb;
+  color: #174ea6;
+  border: 1px solid #cbd8ec;
+}
+
+.suggestions {
+  display: grid;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.suggestion-button {
+  width: 100%;
+  text-align: left;
+  background: #f7f9fc;
+  color: #172033;
+  border: 1px solid #dce2ea;
+}
+
+.result-title {
+  font-size: 1.25rem;
+  font-weight: 800;
+  margin: 0 0 0.5rem;
+}
+
+.result-message {
+  line-height: 1.55;
+}
+
+.result-metadata {
+  font-size: 0.75rem;
+  color: #647083;
+  margin-top: 0.75rem;
+}
+
+.result-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.fact {
+  background: #f7f9fc;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.75rem;
+  padding: 0.75rem;
+}
+
+.fact span {
+  display: block;
+  font-size: 0.75rem;
+  color: #647083;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.fact strong {
+  display: block;
+  margin-top: 0.25rem;
+}
+
+.actions {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+#map {
+  height: 480px;
+  border-radius: 0.75rem;
+  overflow: hidden;
+}
+
+@media (max-width: 640px) {
+  .search-row {
+    flex-direction: column;
+  }
+}

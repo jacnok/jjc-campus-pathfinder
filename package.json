@@ -1,0 +1,20 @@
+{
+  "name": "jjc-campus-pathfinder-mvp",
+  "version": "0.1.0",
+  "description": "MVP scaffold for resolving JJC directory names/rooms to campus buildings, parking, floor guidance, and map markers.",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "start": "tsx src/server.ts",
+    "test": "tsx tests/resolver.test.ts"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^22.15.34",
+    "csv-parse": "^5.6.0",
+    "express": "^5.1.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {}
+}
