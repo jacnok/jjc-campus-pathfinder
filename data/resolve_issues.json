@@ -19,5 +19,41 @@
     "query": "1063",
     "issueType": "ambiguous-room",
     "createdAt": "2026-06-11T00:46:52.932Z"
+  },
+  {
+    "query": "Amy Sims",
+    "issueType": "person-not-found",
+    "createdAt": "2026-06-11T02:49:31.359Z"
+  },
+  {
+    "query": "Sims",
+    "issueType": "person-not-found",
+    "createdAt": "2026-06-11T02:49:36.921Z"
+  },
+  {
+    "query": "Kremer",
+    "issueType": "person-not-found",
+    "createdAt": "2026-06-11T02:51:08.800Z"
+  },
+  {
+    "query": "Cynthia Kremer",
+    "issueType": "person-not-found",
+    "createdAt": "2026-06-11T02:51:16.866Z"
+  },
+  {
+    "query": "CC-2020",
+    "issueType": "building-alias-unmapped",
+    "rawLocation": "CC-2020",
+    "createdAt": "2026-06-11T02:52:10.712Z"
+  },
+  {
+    "query": "Pam Dunn",
+    "issueType": "ambiguous-name",
+    "createdAt": "2026-06-11T02:57:28.144Z"
+  },
+  {
+    "query": "Dunn",
+    "issueType": "ambiguous-name",
+    "createdAt": "2026-06-11T02:57:42.610Z"
   }
 ]
